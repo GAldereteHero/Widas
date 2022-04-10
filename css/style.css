@@ -18,14 +18,14 @@ h1,h2,h3,h4,p,a{
 .boton{
     border-radius: 10px;
     justify-content: center;
-    background-color: #077abf;
+    background-color: #565a5c;
+    background-color: #6a45ae;
     font-size: 14px;
-    border: 15px;
     margin: 10px  auto;
     padding: 5px 40px;
     cursor:pointer;
     color: #ffffff;
-    
+    box-shadow: 0px 0px 10px 1px #3b4a53;
 }
 
 .boton:hover {
@@ -49,7 +49,7 @@ h1,h2,h3,h4,p,a{
 
 #header {
     display: flex;
-    background-color: #ffffff;
+    background-color: #0778bffb;
     height: auto;
     flex-wrap: wrap;
     flex-flow: row wrap;
@@ -57,13 +57,7 @@ h1,h2,h3,h4,p,a{
     justify-content:space-around;
     position: sticky;
     top: 0;
-    border-bottom: 1px solid #077abf;
-
-    /* background-color: #12a9ad; */
-    /* background-image: radial-gradient(circle al, #077abf, #12a9ad); */
-    /* background-color: #159957; */
-    /* background-image: linear-gradient(120deg, #05aaab, #385977); */
-
+    background-image: linear-gradient(120deg, #066eaf, #007d7e);
 }
 
 #header .header__icon {
@@ -80,7 +74,7 @@ h1,h2,h3,h4,p,a{
 }
 
 #header .header__menu li a{
-    color: #757575;
+    color: #fff;
     font-family: 'Oxygen', sans-serif;    
     font-size: 12px;
     text-decoration: none;
@@ -89,6 +83,11 @@ h1,h2,h3,h4,p,a{
     border: 10px;
     padding: 10px;
 
+}
+
+#header img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px #3b4a53;
 }
 
 /* Fin del Header */
@@ -354,18 +353,18 @@ h1,h2,h3,h4,p,a{
 
 #footer {
     display: flex;
-    background-color: #ffffff;
+    background-color: #000;
     height: auto;
     flex-wrap: wrap;
     flex-flow: row wrap;
     align-items: center;
     justify-content:space-around;
     padding: 0 10px;
-    border-top: 1px solid #077abf;
 }
 
 #footer .font{
-    color: #4e4f51;
+    /* color: #4e4f51; */
+    color: #077abf;
     font-family: 'Oxygen', sans-serif;    
     font-size: 12px;
 }
