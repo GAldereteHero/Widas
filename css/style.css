@@ -56,6 +56,7 @@ h1,h2,h3,h4,p,a{
     justify-content:space-around;
     position: sticky;
     top: 0;
+    z-index: 1;
     background-image: linear-gradient(120deg, #066eaf, #007d7e);
 }
 
@@ -95,22 +96,40 @@ h1,h2,h3,h4,p,a{
 
 #index {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin: 50px auto;
+    grid-template-areas:"tit tit"
+                        "img login";
+    margin: 10px auto;
     border: 10px;
     padding: 10px;
     gap: 10px;
 }
 
+#index .titular{
+    grid-area: tit;
+}
+
+#index .animate__animated.animate__lightSpeedInLeft {
+    --animate-duration: 5s;
+}
+
+#index .mod_1{
+    color: #007d7e;
+    text-transform: uppercase;
+}
 
 #index .img__container {
+    grid-area: img;
     align-self: center;
 }
-#index .img__container img{
+#index img{
     width: 100%;
+    animation-duration: 2s;
+    animation-name: efecto__bounceIn;
+    animation-iteration-count: infinite;
 }
 
 #index .login__container{
+    grid-area: login;
     align-self: center; 
     justify-self: stretch;
     
@@ -126,16 +145,12 @@ h1,h2,h3,h4,p,a{
     width: 300px;
     border: 1px solid #077abf;
     border-radius: 25px;
-    margin: 100px auto;
+    margin: auto;
 
 }
 
 #index .font h3{
     color: #000000;
-}
-
-#index .data__input{
-    
 }
 
 #index .login__input{
@@ -266,7 +281,6 @@ h1,h2,h3,h4,p,a{
 /* Comienzo de Contactos */
 
 #contactos{
-
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.25fr 2fr;
@@ -274,7 +288,6 @@ h1,h2,h3,h4,p,a{
     padding: 10px;
     border: 1px solid #077abf;
     border-radius: 25px;
-
 }
 
 #contactos .text__container{
@@ -329,6 +342,11 @@ h1,h2,h3,h4,p,a{
 #contactos .form__info ,h4 ,textarea{
     text-align: center;
     margin: 10px;
+}
+
+#contactos .mod_1{
+    color: #007d7e;
+    text-transform: uppercase;
 }
 
 #contactos .boton{
@@ -395,10 +413,10 @@ h1,h2,h3,h4,p,a{
         padding: 10px ;
     }
     #index {
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 1fr;
-        justify-items: center;
-    }
+        grid-template-areas:"tit"
+                            "img"
+                            "login";
+      }
     #servicios {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
@@ -443,3 +461,12 @@ h1,h2,h3,h4,p,a{
 
 } 
 /* Fin de media query */
+
+/* Inicio de KeyFrames */
+
+@keyframes efecto__bounceIn{
+    0% { transform: scale(1, 1); }
+    50% {transform: scale(1.05, 1.05);}
+    100% {transform: scale(1, 1);}
+}
+/* Fin de KeyFrames */
