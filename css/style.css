@@ -272,21 +272,6 @@ header .text--btn-1{
 
 /* Comienzo de Nosotros */
 
-#nosotros {
-    /* background-color: violet; */
-    display: flex;
-    flex-wrap: nowrap;
-    flex-flow: column wrap;
-    justify-content: center;
-    margin: 0px auto;
-    border: 10px 10px;
-    padding: 10px;
-}
-
-#nosotros img{
-    width: 100%;
-}
-
 /* Fin de Nosotros */
 
 /* Comienzo de Contactos */
