@@ -51,7 +51,7 @@ header {
     background-image: linear-gradient(120deg, #066eaf, #007d7e);
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 100;
 }
 
 header .shadow--icon {
@@ -87,9 +87,11 @@ header .text--btn-1{
 
 /* Comienzo del Index */
 
+
 #index {
     display: grid;
     grid-template-areas:"tit tit"
+                        "car car"
                         "img login";
     margin: 10px auto;
     border: 10px;
@@ -114,8 +116,18 @@ header .text--btn-1{
     grid-area: img;
     align-self: center;
 }
+
+#index .carousel--container{
+    grid-area: car;
+    align-self: center;
+}
+
 #index img{
-    width: 100%;
+    width: 90%;
+}
+
+#index .img--inicio{
+    width: 90%;
     animation-duration: 2s;
     animation-name: efecto__bounceIn;
     animation-iteration-count: infinite;
@@ -368,7 +380,7 @@ footer {
 
 footer h3{
     color: #077abf;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
 }
 
 footer ul li {
@@ -404,9 +416,10 @@ footer .justify-content-around{
     } */
     #index {
         grid-template-areas:"tit"
+                            "car"                    
                             "img"
                             "login";
-      }
+    }
     #servicios {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
@@ -427,6 +440,8 @@ footer .justify-content-around{
         justify-items: center;
     }
 } 
+
+/* Fin de media query */
 
 @media screen and (min-width: 1200px){
     #index{
