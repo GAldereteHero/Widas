@@ -188,7 +188,7 @@ header .text--btn-1{
 
 /* Comienzo de Servicios */
 
-#servicios {
+/* #servicios {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -218,36 +218,36 @@ header .text--btn-1{
     padding: 1px 1px;
     text-align: justify;
     
-}
+} */
 
 /* Fin de Servicios */
 
 /* Comienzo de Precios */
 
-#precios{
+/* #precios{
     margin: 50px auto;
-}
+} */
 
-#precios h2{
+/* #precios h2{
     grid-column: 1/4;
     grid-row: 1/2;
-}
+} */
 
-#precios p{
+/* #precios p{
     grid-column: 1/4;
     grid-row: 2/3;
-}
+} */
 
-#precios .plan__container{
+/* #precios .plan__container{
     display: grid;
     grid-template-columns: repeat( 3, 1fr);
     grid-template-rows:  1fr;
     margin: 50px auto;
     border: 0px 50px;
     gap: 10px;
-}
+} */
 
-#precios .item__container{
+/* #precios .item__container{
     display: flex;
     width: 80%;
     height: 600px;
@@ -259,6 +259,11 @@ header .text--btn-1{
     border: 10px;
     padding: 10px;
     justify-self: center;
+    border: 1px solid #077abf;
+    border-radius: 25px;
+} */
+
+#precios .item--container{
     border: 1px solid #077abf;
     border-radius: 25px;
 }
@@ -406,14 +411,14 @@ footer .justify-content-around{
 
 /* Comienzo de media query */
 
-@media screen and (max-width: 768px){
-    /* #header {
+/* @media screen and (max-width: 768px){
+    #header {
         height: 140px;
         flex-direction: column;
         flex-flow: column nowrap;
         justify-content: space-around;
         padding: 10px ;
-    } */
+    }
     #index {
         grid-template-areas:"tit"
                             "car"                    
@@ -439,7 +444,7 @@ footer .justify-content-around{
         grid-template-rows: 0.5fr 1fr;
         justify-items: center;
     }
-} 
+}  */
 
 /* Fin de media query */
 
@@ -450,7 +455,7 @@ footer .justify-content-around{
     #servicios{
         width: 100%;
         max-width: 1200px;
-    }
+    } 
     #precios{
         width: 100%;
         max-width: 1200px;
