@@ -188,80 +188,9 @@ header .text--btn-1{
 
 /* Comienzo de Servicios */
 
-/* #servicios {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px;
-    margin: 50px auto;
-    border: 10px;
-    padding: 10px;
-    align-items: center;
-}
-
-#servicios img{
-    width: 100%;
-    align-self: center;
-}
-
-#servicios .text__container {
-    align-self: center;
-    margin: 5px 5px;
-    border: 1px 1px;
-    padding: 1px 1px;
-    
-}
-
-#servicios .text__container ,h2 ,p{
-    margin: 5px 5px;
-    border: 1px 1px;
-    padding: 1px 1px;
-    text-align: justify;
-    
-} */
-
 /* Fin de Servicios */
 
 /* Comienzo de Precios */
-
-/* #precios{
-    margin: 50px auto;
-} */
-
-/* #precios h2{
-    grid-column: 1/4;
-    grid-row: 1/2;
-} */
-
-/* #precios p{
-    grid-column: 1/4;
-    grid-row: 2/3;
-} */
-
-/* #precios .plan__container{
-    display: grid;
-    grid-template-columns: repeat( 3, 1fr);
-    grid-template-rows:  1fr;
-    margin: 50px auto;
-    border: 0px 50px;
-    gap: 10px;
-} */
-
-/* #precios .item__container{
-    display: flex;
-    width: 80%;
-    height: 600px;
-    flex-wrap: wrap;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: space-around;
-    margin: 5px auto;
-    border: 10px;
-    padding: 10px;
-    justify-self: center;
-    border: 1px solid #077abf;
-    border-radius: 25px;
-} */
 
 #precios .item--container{
     border: 1px solid #077abf;
@@ -394,44 +323,6 @@ footer .justify-content-around{
 
 /* Fin del Footer */
 
-/* Comienzo de media query */
-
-/* @media screen and (max-width: 768px){
-    #header {
-        height: 140px;
-        flex-direction: column;
-        flex-flow: column nowrap;
-        justify-content: space-around;
-        padding: 10px ;
-    }
-    #index {
-        grid-template-areas:"tit"
-                            "car"                    
-                            "img"
-                            "login";
-    }
-    #servicios {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 1fr);
-    }
-    #servicios img:nth-child(3){
-        grid-row: 4/5;
-    }
-    #precios .plan__container {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-    #nosotros {
-        flex-flow: column wrap;
-    }
-    #contactos {
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 1fr;
-        justify-items: center;
-    }
-}  */
-
-/* Fin de media query */
 
 @media screen and (min-width: 1200px){
     #index{

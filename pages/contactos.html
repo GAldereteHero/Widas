@@ -54,44 +54,49 @@
         </nav>
     </header>
 
-    <main id="contactos">
-        <div class="text__container">
-            <h2>Escribinos</h2>
-            <p>Si eres nuevo, registrate <span class="mod_1">Gratis</span> y agendá una reunión con nosotros.</p>        
-        </div>
-        <form class="form__container" action="login.php" method="get" enctype="text/plain">
-            <div>
-                <input class="form__input" type="text" id="email" placeholder="Ingresá tu email" required>
-            </div>
-            <div>
-                <input class="form__input" type="password" id="clave" placeholder="Ingresá tu contraseña" required>
-            </div>
-            <div>
-                <input class="form__input" type="password" id="clave1" placeholder="Verificá tu contraseña" required>
-            </div>
-            <div class="form__check">
-                <h3>¿Sobre que servicio estas interesado?</h3>
-                <div>
-                    <input type="checkbox" name="web" id="web" value="1"> 
-                    <label for="web">Diseño y desarrollo Web</label>
+    <main id="contactos" class="container">
+
+            <div class="row ">
+                <div class="text__container">
+                    <h2>Escribinos</h2>
+                    <p>Si eres nuevo, registrate <span class="mod_1">Gratis</span> y agendá una reunión con nosotros.</p>        
                 </div>
-                <div>
-                    <input type="checkbox" name="iot" id="iot" value="2"> 
-                    <label for="iot">Internet de las cosas </label>
-                </div>
-                <div>
-                    <input type="checkbox" name="data" id="data" value="3"> 
-                    <label for="data">Analisis de datos </label>
-                </div>
+                <form class="form__container" action="login.php" method="get" enctype="text/plain">
+                    <div>
+                        <input class="form__input" type="text" id="email" placeholder="Ingresá tu email" required>
+                    </div>
+                    <div>
+                        <input class="form__input" type="password" id="clave" placeholder="Ingresá tu contraseña" required>
+                    </div>
+                    <div>
+                        <input class="form__input" type="password" id="clave1" placeholder="Verificá tu contraseña" required>
+                    </div>
+                    <div class="form__check">
+                        <h3>¿Sobre que servicio estas interesado?</h3>
+                        <div>
+                            <input type="checkbox" name="web" id="web" value="1"> 
+                            <label for="web">Diseño y desarrollo Web</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="iot" id="iot" value="2"> 
+                            <label for="iot">Internet de las cosas </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="data" id="data" value="3"> 
+                            <label for="data">Analisis de datos </label>
+                        </div>
+                    </div>
+                    <div class="form__info">
+                        <h4>Contanos sobre tu proyecto</h4>
+                        <textarea name="comen" id="comen" cols="30" rows="2"></textarea>
+                    </div>
+                    <div>
+                        <input class="boton" type="submit" value="Registrarse">
+                    </div>
+                </form>
             </div>
-            <div class="form__info">
-                <h4>Contanos sobre tu proyecto</h4>
-                <textarea name="comen" id="comen" cols="30" rows="2"></textarea>
-            </div>
-            <div>
-                <input class="boton" type="submit" value="Registrarse">
-            </div>
-        </form>
+
+
     </main>
     <footer>
         <div class="d-flex justify-content-around">
