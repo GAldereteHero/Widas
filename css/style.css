@@ -113,6 +113,12 @@ header .text--btn2{
 
 /* Comienzo de Nosotros */
 
+#nosotros .mod--font1{
+    font-family: 'Oxygen', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
 /* Fin de Nosotros */
 
 /* Comienzo de Contactos */
