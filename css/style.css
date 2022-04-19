@@ -103,9 +103,10 @@ header .text--btn2{
 
 /* Comienzo de Precios */
 
-#precios .item--container{
-    border: 1px solid #077abf;
-    border-radius: 25px;
+#precios .mod--font1{
+    font-family: 'Oxygen', sans-serif;
+    text-decoration: none;
+    color: #fff;
 }
 
 /* Fin de Precios */
