@@ -9,6 +9,10 @@ h1,h2,h3,h4,p,a{
     color: #000000;
 }
 
+div{
+    text-align: center;
+}
+
 .b-example-divider{
     height: 4rem;
 }
@@ -123,90 +127,6 @@ header .text--btn2{
 
 /* Comienzo de Contactos */
 
-#contactos{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.25fr 2fr;
-    margin: 50px auto;
-    padding: 10px;
-    border: 1px solid #077abf;
-    border-radius: 25px;
-}
-
-#contactos .text__container{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    padding: 10px;
-}
-
-#contactos .text__container ,h2 ,p{
-    text-align: center;
-}
-
-#contactos .form__container{
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-#contactos .form__input{
-    width: 250px;
-    margin: 10px;
-    border: 10px;
-    padding: 10px;
-    border: 1px solid #eeeeee;
-    border-radius: 25px;
-}
-
-#contactos .form__check{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    padding: 10px;
-    margin: 10px;
-}
-
-#contactos .form__check ,h3 ,div{
-    text-align: center;
-    margin: 10px;
-}
-
-#contactos .form__info{
-    margin: 5px;
-}
-
-#contactos .form__info ,h4 ,textarea{
-    text-align: center;
-    margin: 10px;
-}
-
-#contactos .mod_1{
-    color: #007d7e;
-    text-transform: uppercase;
-}
-
-#contactos .boton{
-    border-radius: 10px;
-    justify-content: center;
-    background-color: #12a9ad;
-    font-size: 14px;
-    border: none;
-    margin: 0  auto;
-    padding: 5px 50px;
-    cursor:pointer;
-    color: #ffffff;
-}
-
-#contactos .boton:hover {
-   opacity: 0.7;
-}
 /* Fin de Contactos */
 
 /* Footer */
@@ -239,23 +159,5 @@ footer .justify-content-center{
     align-items: center;
 }
 
-footer .justify-content-around{
-    
-}
-
 /* Fin del Footer */
 
-
-/* Inicio de media query */
-
-/* Fin de media query */
-
-/* Inicio de KeyFrames */
-
-@keyframes efecto__bounceIn{
-    0% { transform: scale(1, 1); }
-    50% {transform: scale(1.05, 1.05);}
-    100% {transform: scale(1, 1);}
-}
-
-/* Fin de KeyFrames */
