@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, p, a {
+  font-family: 'Oxygen', sans-serif;
+  text-decoration: none;
+  color: #000000;
+}
+
+div {
+  text-align: center;
+}
+
+body {
+  background-image: url("../img/back.svg");
+  background-size: auto;
+}
+
+.b-example-divider {
+  height: 4rem;
+}
+
+header {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header .btn-success {
+  background-color: #662fd5;
+  border-color: #662fd5;
+}
+
+header .btn-success:hover {
+  background-color: #662fd5bd;
+  border-color: #662fd5;
+}
+
+header .btn-outline-success {
+  color: #662fd5;
+  border-color: #459375;
+}
+
+header .text--btn1 {
+  color: #459375;
+}
+
+header .text--btn2 {
+  color: #fff;
+}
+
+main .shadow {
+  box-shadow: 0 0.5rem 1rem #662fd5bd !important;
+}
+
+main .mod--font1 {
+  color: #fff;
+}
+
+main .mod--font2 {
+  color: #077abf;
+}
+
+main .mod--font3 {
+  text-transform: uppercase;
+  color: #ffcd38;
+}
+
+main .mod--font4 {
+  text-transform: uppercase;
+  color: #fe8833;
+}
+
+main .mod--border {
+  border-color: #662fd5 !important;
+}
+
+footer {
+  background-color: #000000;
+}
+
+footer .mod--font2 {
+  color: #077abf;
+  size: 0.5rem;
+}
+
+footer ul li {
+  list-style: none;
+  margin: 0px 10px;
+  align-items: center;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
+footer .justify-content-center {
+  margin: 0px;
+  align-items: center;
+}
