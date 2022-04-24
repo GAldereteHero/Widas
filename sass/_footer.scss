@@ -1,0 +1,26 @@
+footer {
+
+    background-color: $mi-black;
+        
+    & .mod--font2{
+        color: $mi-blue;
+        size: 0.5rem;
+    }
+        
+    ul{ 
+        li{
+        list-style: none;
+        margin: 0px 10px;
+        align-items: center;
+
+            a{
+                color: $mi-white;
+            }
+        }
+    }
+
+    & .justify-content-center{
+        margin: 0px;
+        align-items: center;
+    }
+}

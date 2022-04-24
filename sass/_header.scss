@@ -1,0 +1,29 @@
+header {
+    background-color: $mi-white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    .btn-success{
+        background-color: $mi-purple;
+        border-color: $mi-purple;
+        
+        &:hover{
+            background-color: $mi-purple-mod;
+            border-color: $mi-purple;
+        }
+    }
+
+    & .btn-outline-success{
+        color: $mi-purple;
+        border-color: $mi-green;
+    }
+
+    & .text--btn1{
+        color: $mi-green;
+    }
+    
+    .text--btn2{
+        color: $mi-white;
+    }
+}
