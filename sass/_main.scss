@@ -1,0 +1,27 @@
+main {
+
+    & .shadow{
+        box-shadow: 0 .5rem 1rem $mi-purple-mod!important;
+    }
+
+    & .mod{
+        &--font1{
+            color: $mi-white;
+        }
+        &--font2{
+            color: $mi-blue;
+        }
+        &--font3{
+            text-transform: uppercase;
+            color: $mi-yellow;
+        }
+        &--font4{
+            text-transform: uppercase;
+            color: $mi-orange;
+        }
+    }
+
+    & .mod--border{
+        border-color: $mi-purple!important;
+    }
+}
