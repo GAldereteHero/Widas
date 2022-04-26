@@ -18,12 +18,34 @@ body {
   background-size: auto;
 }
 
+body .mod--font1 {
+  color: #fff;
+}
+
+body .mod--font2 {
+  color: #077abf;
+}
+
+body .mod--font3 {
+  text-transform: uppercase;
+  color: #ffcd38;
+}
+
+body .mod--font4 {
+  text-transform: uppercase;
+  color: #fe8833;
+}
+
 .b-example-divider {
   height: 4rem;
 }
 
+.border-bottom {
+  border-bottom: 1px solid #0097ad !important;
+}
+
 header {
-  background-color: #fff;
+  background-color: #0066ff;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -45,37 +67,23 @@ header .btn-outline-success {
 }
 
 header .text--btn1 {
-  color: #459375;
+  color: #fff;
 }
 
 header .text--btn2 {
   color: #fff;
 }
 
-main .shadow {
-  box-shadow: 0 0.5rem 1rem #662fd5bd !important;
-}
-
-main .mod--font1 {
-  color: #fff;
-}
-
-main .mod--font2 {
-  color: #077abf;
-}
-
-main .mod--font3 {
-  text-transform: uppercase;
-  color: #ffcd38;
-}
-
-main .mod--font4 {
-  text-transform: uppercase;
-  color: #fe8833;
+header .shadow--icon {
+  box-shadow: 0 0.05rem 1rem #662fd5bd;
 }
 
 main .mod--border {
   border-color: #662fd5 !important;
+}
+
+main .shadow {
+  box-shadow: 0 0.5rem 1rem #662fd5bd !important;
 }
 
 footer {

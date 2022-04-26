@@ -2,7 +2,7 @@ footer {
 
     background-color: $mi-black;
         
-    & .mod--font2{
+    .mod--font2{
         color: $mi-blue;
         size: 0.5rem;
     }
@@ -19,7 +19,7 @@ footer {
         }
     }
 
-    & .justify-content-center{
+    .justify-content-center{
         margin: 0px;
         align-items: center;
     }
