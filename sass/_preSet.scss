@@ -16,8 +16,29 @@ div{
 body{
     background-image: url("../img/back.svg");
     background-size: auto;
+
+    .mod{
+        &--font1{
+            color: $mi-white;
+        }
+        &--font2{
+            color: $mi-blue;
+        }
+        &--font3{
+            text-transform: uppercase;
+            color: $mi-yellow;
+        }
+        &--font4{
+            text-transform: uppercase;
+            color: $mi-orange;
+        }
+    }
 }
 
 .b-example-divider{
     height: 4rem;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #0097ad!important;
 }
