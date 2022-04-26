@@ -83,7 +83,7 @@ main .mod--border {
 }
 
 main .shadow {
-  box-shadow: 0 0.5rem 1rem #662fd5bd !important;
+  box-shadow: 0 0.5rem 1rem #000000b2 !important;
 }
 
 footer {
