@@ -2,8 +2,8 @@ footer {
 
     background-color: $mi-black;
         
-    .mod--font2{
-        color: $mi-blue;
+    .font--bl{
+        color: map-get($font-color, bl);
         size: 0.5rem;
     }
         
@@ -14,7 +14,7 @@ footer {
         align-items: center;
 
             a{
-                color: $mi-white;
+                @extend .font--bl;
             }
         }
     }
