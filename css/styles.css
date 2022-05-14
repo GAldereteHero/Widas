@@ -5,18 +5,31 @@ header {
   z-index: 100;
 }
 
+header .link-underline {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+header .link-underline:hover {
+  background-size: 100% 2px;
+}
+
 header .btn-success {
-  background-color: #662fd5;
-  border-color: #662fd5;
+  background-color: #7a48bb;
+  border-color: #7a48bb;
 }
 
 header .btn-success:hover {
-  background-color: #662fd5bd;
-  border-color: #662fd5;
+  background-color: #7a48bbcf;
+  border-color: #7a48bb;
 }
 
 header .btn-outline-success {
-  color: #662fd5;
+  color: #7a48bb;
   border-color: #459375;
 }
 
@@ -29,7 +42,7 @@ header .text--btn2 {
 }
 
 header .shadow--icon {
-  box-shadow: 0 0.05rem 1rem #662fd5bd;
+  box-shadow: 0 0.05rem 1rem #7a48bbcf;
 }
 
 * {
@@ -65,7 +78,7 @@ main .border--orange {
 }
 
 main .border--purple {
-  border-color: #662fd5 !important;
+  border-color: #7a48bb !important;
 }
 
 main .border--green {
@@ -73,7 +86,7 @@ main .border--green {
 }
 
 main .shadow--purple {
-  box-shadow: 0 0.5rem 1rem #662fd5bd !important;
+  box-shadow: 0 0.5rem 1rem #7a48bbcf !important;
 }
 
 main .font--wh {
