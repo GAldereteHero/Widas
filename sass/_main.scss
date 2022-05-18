@@ -32,6 +32,7 @@ $font-color:(
     bl: $mi-blue,
     yw: $mi-yellow,
     or: $mi-orange,
+    pr: $mi-purple,
  );
 
  @mixin miBorder ($color) {
@@ -39,6 +40,10 @@ $font-color:(
  }
 
 main {
+
+    .back-white{
+        background-color: $mi-white
+    }
 
     .border--orange{
         @include miBorder($mi-orange);
@@ -51,12 +56,15 @@ main {
     .border--green{
         @include miBorder($mi-green);
     }
+
+    .border--radius{
+        border-radius: 5rem;
+    }
     
     .shadow--purple{
         box-shadow: 0 .5rem 1rem $mi-purple-mod!important;
     }
-
-
+    
     @each $nombre, $valor in $font-color {
         
         @if ($nombre == yw) or ($nombre == or)  {
