@@ -73,6 +73,10 @@ body {
   border-bottom: 1px solid #0097ad !important;
 }
 
+main .back-white {
+  background-color: #fff;
+}
+
 main .border--orange {
   border-color: #fe8833 !important;
 }
@@ -83,6 +87,10 @@ main .border--purple {
 
 main .border--green {
   border-color: #459375 !important;
+}
+
+main .border--radius {
+  border-radius: 5rem;
 }
 
 main .shadow--purple {
@@ -98,13 +106,17 @@ main .font--bl, main footer ul li a, footer ul li main a {
 }
 
 main .font--yw {
-  color: #ffcd38;
+  color: #ffc107;
   text-transform: uppercase;
 }
 
 main .font--or {
   color: #fe8833;
   text-transform: uppercase;
+}
+
+main .font--pr {
+  color: #7a48bb;
 }
 
 footer {
